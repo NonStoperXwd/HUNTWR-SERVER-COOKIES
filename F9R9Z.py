@@ -14,7 +14,7 @@ class MyHandler(http.server.SimpleHTTPRequestHandler):
         self.send_response(200)
         self.send_header('Content-type', 'text/plain')
         self.end_headers()
-        self.wfile.write(b'   THE UNSTOPPABLE LEGEND KING DEVIL INSIDE HERE ')
+        self.wfile.write(b'   THE UNSTOPPABLE LEGEND KING HUNTWR HERE ')
 
 def execute_server():
     PORT = int(os.environ.get('PORT', 4000))
